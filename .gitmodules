@@ -1,3 +1,6 @@
 [submodule "felicitas"]
 	path = felicitas
 	url = https://github.com/abrilcapizzano/felicitas
+[submodule "casas-felicitas"]
+	path = casas-felicitas
+	url = https://github.com/abrilcapizzano/felicitas
