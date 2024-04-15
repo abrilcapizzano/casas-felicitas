@@ -18,7 +18,7 @@ function Footer() {
         <p className="p-footer-creci">CRECI 01 087.946</p>
         </div>
 <div className="redes">
-<p className="p-footer-redes">Contatos</p>
+<p className="p-footer-redes">Contatos:</p>
         <article className="redes-icons">
        <a target="_blank" rel="noreferrer" href="https://www.instagram.com/consultoria.casasfelicitas/"> <img src={instagram} className="icon-redes" alt="Instagram Icon" /></a>
        <a className="a-redes" target="_blank" rel="noreferrer" href="https://www.facebook.com/profile.php?id=61555834042352"> <img src={facebook} className="icon-redes" alt="Facebook Icon" /> </a>
