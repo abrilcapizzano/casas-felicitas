@@ -1,0 +1,66 @@
+.contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 24px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border-radius: 10px;
+    color: black;
+    border: 2px;
+    margin: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Staatliches', cursive;
+  }
+  
+  button {
+    border-style: none;
+    border-radius: 2px;
+    height: 30px;
+  }
+  
+  input {
+    border-style: none;
+    width: 100%;
+    padding: 1%;
+    color: black;
+  }
+  
+  textarea {
+    padding: 2%;
+    border-style: none;
+    color: black;
+  }
+
+  .label-input{
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Staatliches', cursive;
+  }
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Staatliches', cursive;
+    margin: 28px;
+}
+    @media screen and (min-width:200px) and (max-width:768px) {
+        .contacto{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+            flex-wrap: wrap;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            border: none;
+            padding: 16px;
+            color: black;
+        }
+        }

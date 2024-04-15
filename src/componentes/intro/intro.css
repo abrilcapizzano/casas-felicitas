@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+.titulo-principal{
+    color: black;   
+    margin: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+}
+.name{
+    font-size: 38px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+font-family: 'Staatliches', cursive;
+  }
+
+.navbar.navegador{
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(198, 198, 198);
+    font-family:"Noto Sans JP", sans-serif;
+    color: black;
+}
+
+.logo-black{
+    width: 140px;
+}
+.nav-link.link-nav{
+    font-size: 20px;
+    color: solid black;
+    --bs-nav-link-color:black;
+}
+
+.logo-title{
+    color: black;
+    font-size: 18px;
+}
+
