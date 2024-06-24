@@ -7,8 +7,12 @@ import toribanortebcasa4 from "./fotos/toribanortebcasa4.jpg";
 import toribanortebcasa5 from "./fotos/toribanortebcasa5.jpg";
 import toribanortebcasa6 from "./fotos/toribanortebcasa6.jpg";
 import toribanortebcasa7 from "./fotos/toribanortebcasa7.jpg";
-
-
+import toribanortebcasa8 from "./fotos/foto8.jpg";
+import toribanortebcasa9 from "./fotos/foto9.jpg";
+import foto11 from "./fotos/foto11.jpeg";
+import foto10 from "./fotos/foto10.jpeg";
+import foto12 from "./fotos/foto12.jpeg";
+import foto13 from "./fotos/foto13.jpg";
 
 import "./slider.css"
 
@@ -26,29 +30,46 @@ function MultipleItems() {
     <div className="div-slider">
       <Slider {...settings}>
         <div className="slide-container">
-          <img src={toribanortebcasa2} className="icon-home" alt="Logo Casas Felicitas" style={{ maxWidth: "100%", height: "auto" }} />
-          <p className="text-slider">Área externa</p>
+          <img src={toribanortebcasa2} className="icon-home" alt="Logo Casas Felicitas"  />
+
         </div>
         <div className="slide-container">
-          <img src={toribanortebcasa3} className="icon-home" alt="Logo Casas Felicitas" style={{ maxWidth: "100%", height: "auto" }} />
-          <p className="text-slider">Dormitório</p>
+          <img src={toribanortebcasa3} className="icon-home" alt="Logo Casas Felicitas"  />
+
         </div>
         <div className="slide-container">
-          <img src={toribanortebcasa4} className="icon-home" alt="Logo Casas Felicitas" style={{ maxWidth: "100%", height: "auto" }} />
-          <p className="text-slider">Sala de Estar</p>
+          <img src={toribanortebcasa4} className="icon-home" alt="Logo Casas Felicitas"  />
+
         </div>
 
         <div className="slide-container">
-          <img src={toribanortebcasa5} className="icon-home" alt="Logo Casas Felicitas" style={{ maxWidth: "100%", height: "auto" }} />
-          <p className="text-slider">Cozinha</p>
+          <img src={toribanortebcasa5} className="icon-home" alt="Logo Casas Felicitas" />
+
         </div>
         <div className="slide-container">
-          <img src={toribanortebcasa6} className="icon-home" alt="Logo Casas Felicitas" style={{ maxWidth: "100%", height: "auto" }} />
-          <p className="text-slider">Área da Piscina</p>
+          <img src={toribanortebcasa6} className="icon-home" alt="Logo Casas Felicitas"/>
+
         </div>
         <div className="slide-container">
-          <img src={toribanortebcasa7} className="icon-home" alt="Logo Casas Felicitas" style={{ maxWidth: "100%", height: "auto" }} />
-          <p className="text-slider">Área Gourmet</p>
+          <img src={toribanortebcasa7} className="icon-home" alt="Logo Casas Felicitas" />
+        </div>
+        <div className="slide-container">
+          <img src={toribanortebcasa8} className="icon-home" alt="Logo Casas Felicitas" />
+        </div>
+        <div className="slide-container">
+          <img src={toribanortebcasa9} className="icon-home" alt="Logo Casas Felicitas" />
+        </div>
+        <div className="slide-container">
+          <img src={foto10} className="icon-home" alt="Logo Casas Felicitas" />
+        </div>
+        <div className="slide-container">
+          <img src={foto11} className="icon-home" alt="Logo Casas Felicitas" />
+        </div>
+        <div className="slide-container">
+          <img src={foto12} className="icon-home" alt="Logo Casas Felicitas" />
+        </div>
+        <div className="slide-container">
+          <img src={foto13} className="icon-home" alt="Logo Casas Felicitas" />
         </div>
       </Slider>
     </div>

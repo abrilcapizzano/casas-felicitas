@@ -1,25 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
 
-
-
-.h4-casasfelicitas{
+.h4-casasfelicitas {
     color: #ffffff;
     text-shadow: 1px 1px rgb(0, 0, 0);
-   font-size: 30px;
-    font-family:"Noto Sans JP", sans-serif;
+    font-size: 30px;
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-style: normal;
 
 }
 
-.logo{
+.logo {
     color: white;
 }
-.text-white{
+
+.text-white {
     text-align: center;
     padding: 20px;
 }
 
-.homeContainer{
+.homeContainer {
     margin: 120px;
     display: flex;
     flex-direction: column;
@@ -28,26 +31,31 @@
     flex-wrap: wrap;
 }
 
-.container-text-home{
+.container-text-home {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.text-container{
+
+.text-container {
     width: 600px;
- text-align: center;
+    text-align: center;
     margin: 4px;
 }
-.text-icons{
+
+.text-icons {
     font-size: 20px;
     margin: 4px;
     padding: 4px;
-    font-family:"Noto Sans JP", sans-serif;
+    font-family: "Montserrat", sans-serif;
+
 }
-.icon-home{
-    width:30vw;
+
+.icon-home {
+    width: 30vw;
 }
+
 .main-container {
     display: flex;
     flex-direction: column;
@@ -56,6 +64,45 @@
     overflow: hidden;
 }
 
-.contenedor-slide{
+.contenedor-slide {
     margin-left: 10px;
+}
+
+.titulo-sobre {
+    font-size: 40px;
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+@media screen and (min-width:320px) and (max-width:768px) {
+    .text-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .text-icons {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .homeContainer {
+        margin: 12px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .icon-home {
+        width: 80vw;
+    }
 }
