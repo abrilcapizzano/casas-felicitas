@@ -1,7 +1,7 @@
 import React from "react";
 import "./footer.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
-import logoblack from "./logo-black.svg";
+import logo from "./logo-verde.svg";
 import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
 import whatsapp from "./whatsapp.svg";
@@ -12,7 +12,7 @@ function Footer() {
   return (
 <div>
 <footer>
-<img src={logoblack} className="logo" alt="Logo Casas Felicitas" />
+<img src={logo} className="logo" alt="Logo Casas Felicitas" />
 <div>
         <p className="p-footer-title">Felicitas Casas</p>
         <p className="p-footer-creci">CRECI 01 087.946</p>

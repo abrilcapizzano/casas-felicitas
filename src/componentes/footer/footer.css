@@ -13,16 +13,16 @@ footer {
     border-top: 1px solid rgb(198, 198, 198);
 }
 
+.logo {
+    width: 100px;
+}
+
 .redes {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: transparent;
-}
-
-.logo {
-    width: 200px;
 }
 
 .icon-redes {

@@ -6,14 +6,9 @@
     font-family: "Marcellus", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 44px;
-    margin: 18px;
-}
-
-.name {
-    font-size: 38px;
-    font-weight: 600;
-    font-family: "Marcellus", serif;
+    font-size: 60px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .navbar.navegador {
@@ -23,18 +18,26 @@
     color: black;
 }
 
-.logo-black {
-    width: 140px;
+.logo-container img {
+    width: 100px;
+    margin-left: 60px;
+}
+
+.logo-container p {
+    margin-left: 60px;
+    font-size: 20px;
 }
 
 .nav-link.link-nav {
     font-size: 20px;
     color: solid black;
     --bs-nav-link-color: black;
+    margin-right: 60px;
 }
 
-.logo-title {
-    color: black;
-    font-size: 18px;
-    font-family: "Marcellus", serif;
+
+@media screen and (min-width:200px) and (max-width:768px) {
+    .titulo-principal {
+        font-size: 40px;
+    }
 }

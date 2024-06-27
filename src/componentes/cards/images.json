@@ -1,0 +1,45 @@
+{
+    "casa-ferradurinha": {
+        "descripcion": "Desfrute do paraíso em Armação dos Búzios na exclusiva Praia da Ferradurinha! Esta deslumbrante casa oferece o cenário perfeito para viver seus sonhos de praia! Com uma localização privilegiada a poucos passos da areia dourada e das águas cristalinas, a propriedade é um refúgio de luxo. Composta por: 2 suítes espaçosas com vista para o mar, 1 suíte térrea com vista para o quintal, quarto de serviço independente, sala com dois ambientes, cozinha, área de serviço, deck, churrasqueira e uma linda piscina com vista panorâmica para a praia.","imagenes": [
+            "/casa-ferradurinha/cocina.jpeg",
+            "/casa-ferradurinha/exterior1.jpeg",
+            "/casa-ferradurinha/living.jpeg",
+            "/casa-ferradurinha/banho.jpeg",
+            "/casa-ferradurinha/exterior2.jpeg",
+            "/casa-ferradurinha/quarto.jpeg",
+            "/casa-ferradurinha/escalera.jpeg",
+            "/casa-ferradurinha/exterior3.jpeg",
+            "/casa-ferradurinha/living2.jpeg"
+        ]
+    },
+    "casa-caravelas": {
+        "descripcion": "Casa a 500 metros da praia das Caravelas, condomínio Fazenda da Lagoa, familiar, com segurança 24 horas, área de lazer, piscina e áreas verdes. O condomínio tem uma lagoa maravilhosa, é um lugar de muita paz e sossego. A casa tem 2 quartos, sendo 1 suíte, cozinha integrada com a sala, lavanderia, banheiro social e uma linda varanda conectada com a natureza.",
+        "imagenes": [
+            "/casa-caravelas/cocina.jpeg",
+            "/casa-caravelas/exterior.jpeg",
+            "/casa-caravelas/pileta.jpeg",
+            "/casa-caravelas/banio.jpeg", 
+            "/casa-caravelas/comedor.jpeg",
+            "/casa-caravelas/cuarto.jpeg",
+            "/casa-caravelas/exterior2.jpeg",
+            "/casa-caravelas/living.jpeg",
+            "/casa-caravelas/porta-exterior.jpeg"
+            
+        ]
+    },
+    "casa-geriba": {
+        "descripcion": "Imagine morar em uma casa onde é possível escutar o som do mar. Nesta linda casa de frente para uma das mais famosas praias de Búzios, você encontrará paz e tranquilidade. A casa tem 2 suítes, 1 quarto reversível, sala integrada com a cozinha, varanda fechada e lavanderia. Está localizada dentro de um condomínio com piscina, sauna, churrasqueira, quintal, salão de jogos e muito mais.",
+        "imagenes": [
+            "/casa-geriba/cocina.jpeg",
+            "/casa-geriba/living.jpeg",
+            "/casa-geriba/pileta.jpeg",
+            "/casa-geriba/banio.jpeg",
+            "/casa-geriba/living2.jpeg",
+            "/casa-geriba/cuarto.jpeg",
+            "/casa-geriba/exterior.jpeg",
+            "/casa-geriba/living.jpeg",
+            "/casa-geriba/living2.jpeg"
+            
+        ]
+    }
+}

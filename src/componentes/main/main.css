@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
 
+
 .h4-casasfelicitas {
     color: #ffffff;
     text-shadow: 1px 1px rgb(0, 0, 0);
@@ -13,9 +14,6 @@
 
 }
 
-.logo {
-    color: white;
-}
 
 .text-white {
     text-align: center;
@@ -64,11 +62,8 @@
     overflow: hidden;
 }
 
-.contenedor-slide {
-    margin-left: 10px;
-}
 
-.titulo-sobre {
+.sub-titulo {
     font-size: 40px;
     font-family: "Marcellus", serif;
     font-weight: 400;

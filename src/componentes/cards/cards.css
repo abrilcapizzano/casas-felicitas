@@ -1,0 +1,87 @@
+.slider-container {
+
+    margin-top: 40px;
+    /* Evita la barra de desplazamiento horizontal */
+    width: 90%;
+    /* Ajusta el ancho del contenedor del slider según tus necesidades */
+    margin: 0 auto;
+    /* Centra horizontalmente el contenedor del slider */
+}
+
+.slick-slide {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* Centra horizontalmente el contenido dentro de cada slide */
+}
+
+.slick-slide img {
+    max-width: 100%;
+    /* Ajusta el tamaño máximo de la imagen */
+    height: 40vh;
+    /* Mantiene la proporción original */
+}
+
+
+.slick-dots {
+    position: absolute;
+    bottom: 10px;
+    /* Ajusta la posición vertical de los dots según necesites */
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    /* Ajusta según el tamaño del contenedor */
+    overflow: hidden;
+    /* Evita que las imágenes se desborden */
+    width: 100%;
+}
+
+.centralized-image {
+    height: 40vh;
+    /* Asegura que la imagen tenga la altura completa del contenedor */
+    width: auto;
+    /* Mantiene la proporción de la imagen */
+    object-fit: cover;
+    /* Ajusta para cubrir el contenedor manteniendo la proporción */
+}
+
+.casa-section {
+    border: 1px solid rgb(178, 178, 178);
+    border-radius: 10px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+.casa-section h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    font-family: "Marcellus", serif;
+}
+
+.descripcion {
+    font-size: 16px;
+    padding-inline: 18%;
+    margin-top: 18px;
+    margin-bottom: 20px;
+    white-space: pre-line;
+    font-family: "Marcellus", serif;
+}
+
+@media screen and (min-width:320px) and (max-width:768px) {
+    .descripcion {
+        font-size: 20px;
+        padding-inline: 10%;
+    }
+}
